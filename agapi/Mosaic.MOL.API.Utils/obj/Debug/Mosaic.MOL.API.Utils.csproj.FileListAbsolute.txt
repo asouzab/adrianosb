@@ -1,0 +1,5 @@
+C:\githubag\agapi\Mosaic.MOL.API.Utils\bin\Debug\Mosaic.MOL.API.Utils.dll
+C:\githubag\agapi\Mosaic.MOL.API.Utils\bin\Debug\Mosaic.MOL.API.Utils.pdb
+C:\githubag\agapi\Mosaic.MOL.API.Utils\obj\Debug\Mosaic.MOL.API.Utils.csprojResolveAssemblyReference.cache
+C:\githubag\agapi\Mosaic.MOL.API.Utils\obj\Debug\Mosaic.MOL.API.Utils.dll
+C:\githubag\agapi\Mosaic.MOL.API.Utils\obj\Debug\Mosaic.MOL.API.Utils.pdb

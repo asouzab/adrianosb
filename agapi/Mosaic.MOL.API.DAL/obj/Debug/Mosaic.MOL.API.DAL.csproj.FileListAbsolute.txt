@@ -1,0 +1,13 @@
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Mosaic.MOL.API.DAL.dll.config
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Mosaic.MOL.API.DAL.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Mosaic.MOL.API.DAL.pdb
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Dapper.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\log4net.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Mosaic.MOL.API.Model.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Mosaic.MOL.API.Model.pdb
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\Dapper.xml
+C:\githubag\agapi\Mosaic.MOL.API.DAL\bin\Debug\log4net.xml
+C:\githubag\agapi\Mosaic.MOL.API.DAL\obj\Debug\Mosaic.MOL.API.DAL.csprojResolveAssemblyReference.cache
+C:\githubag\agapi\Mosaic.MOL.API.DAL\obj\Debug\Mosaic.MOL.API.DAL.dll
+C:\githubag\agapi\Mosaic.MOL.API.DAL\obj\Debug\Mosaic.MOL.API.DAL.pdb

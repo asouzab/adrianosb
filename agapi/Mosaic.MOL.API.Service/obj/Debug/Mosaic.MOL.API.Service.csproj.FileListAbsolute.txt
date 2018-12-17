@@ -1,0 +1,17 @@
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Service.dll.config
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Service.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Service.pdb
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\log4net.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.DAL.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Model.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Utils.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Dapper.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.DAL.pdb
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Model.pdb
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Mosaic.MOL.API.Utils.pdb
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\log4net.xml
+C:\githubag\agapi\Mosaic.MOL.API.Service\bin\Debug\Dapper.xml
+C:\githubag\agapi\Mosaic.MOL.API.Service\obj\Debug\Mosaic.MOL.API.Service.csprojResolveAssemblyReference.cache
+C:\githubag\agapi\Mosaic.MOL.API.Service\obj\Debug\Mosaic.MOL.API.Service.dll
+C:\githubag\agapi\Mosaic.MOL.API.Service\obj\Debug\Mosaic.MOL.API.Service.pdb
