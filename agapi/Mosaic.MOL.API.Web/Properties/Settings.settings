@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mosaic.MOL.API.Web.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Mosaic_MOL_API_Web_CreateContractService_SI_CREATE_CONTRACT_OB_BrazilMOService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://aldsapxd2.mosaicco.com:50000/XISOAPAdapter/MessageServlet? CC_SOAP_BRAZILMO=:BSYS_MOL_IIS_D:CC_SOAP_BRAZILMO&amp;version=3.0&amp;Sender.Service=BSYS_MOL_IIS_D&amp;Interface=http%3A%2F%2Fmosaicco.com%2FMosaicBrazil%5ESI_CREATE_CONTRACT_OB_BrazilMO</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

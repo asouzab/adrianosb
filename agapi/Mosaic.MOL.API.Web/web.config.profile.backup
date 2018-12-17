@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  https://go.microsoft.com/fwlink/?LinkId=301879
+  -->
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="Mosaic.MOL.API.Web.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings></appSettings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.7.1" />
+    <httpRuntime targetFramework="4.7.1" />
+  </system.web>
+
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" />
+        <bindingRedirect oldVersion="0.0.0.0-11.0.0.0" newVersion="11.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Helpers" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Mvc" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-5.2.4.0" newVersion="5.2.4.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.WebPages" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="0.0.0.0-3.0.0.0" newVersion="3.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Http" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-5.2.6.0" newVersion="5.2.6.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Formatting" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-5.2.6.0" newVersion="5.2.6.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <system.codedom>
+    <compilers>
+      <compiler language="c#;cs;csharp" extension=".cs" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:1659;1699;1701" />
+      <compiler language="vb;vbs;visualbasic;vbscript" extension=".vb" type="Microsoft.CodeDom.Providers.DotNetCompilerPlatform.VBCodeProvider, Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" warningLevel="4" compilerOptions="/langversion:default /nowarn:41008 /define:_MYTYPE=\&quot;Web\&quot; /optionInfer+" />
+    </compilers>
+  </system.codedom>
+  <system.webServer>
+    <handlers>
+      <remove name="ExtensionlessUrlHandler-Integrated-4.0" />
+      <remove name="OPTIONSVerbHandler" />
+      <remove name="TRACEVerbHandler" />
+      <add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" preCondition="integratedMode,runtimeVersionv4.0" />
+    </handlers>
+  </system.webServer>
+  <applicationSettings>
+    <Mosaic.MOL.API.Web.Properties.Settings>
+      <setting name="Mosaic_MOL_API_Web_CreateContractService_SI_CREATE_CONTRACT_OB_BrazilMOService" serializeAs="String">
+        <value>http://aldsapxd2.mna.corp.mosaicco.com:50100/XISOAPAdapter/MessageServlet?channel=:BSYS_MOL_IIS_D:CC_SOAP_BRAZILMO&amp;version=3.0&amp;Sender.Service=BSYS_MOL_IIS_D&amp;Interface=http%3A%2F%2Fmosaicco.com%2FMosaicBrazil%5ESI_CREATE_CONTRACT_OB_BrazilMO</value>
+      </setting>
+    </Mosaic.MOL.API.Web.Properties.Settings>
+  </applicationSettings>
+  
+  <connectionStrings>
+    <!-- DEV -->
+    <add name="MOL" connectionString="Password=VS26;User ID=VND_SEC;Data Source=DMOSOL2;Persist Security Info=True" />
+
+    <!-- QA -->
+    <!--<add name="MOL" connectionString="Password=mosaiconline_2018_vnd;User ID=VND_SEC;Data Source=QMOSOL2;Persist Security Info=True" />-->
+
+    <!-- PRD -->
+    <!--<add name="MOL" connectionString="Password=VS25;User ID=VND_SEC;Data Source=PMOSOL2;Persist Security Info=True"/>-->
+  </connectionStrings>
+ 
+</configuration>

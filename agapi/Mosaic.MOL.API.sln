@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.MOL.API.Web", "Mosaic.MOL.API.Web\Mosaic.MOL.API.Web.csproj", "{6801DB00-7CBA-4378-BF4A-316EF3423883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.MOL.API.DAL", "Mosaic.MOL.API.DAL\Mosaic.MOL.API.DAL.csproj", "{69DD156A-14CE-4879-B111-51BEE3C29124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.MOL.API.Model", "Mosaic.MOL.API.Model\Mosaic.MOL.API.Model.csproj", "{0E198EC9-A5D1-43EF-8206-F028DE365607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.MOL.API.Utils", "Mosaic.MOL.API.Utils\Mosaic.MOL.API.Utils.csproj", "{439C92CB-96AF-46F6-944F-4E1E1106808B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosaic.MOL.API.Service", "Mosaic.MOL.API.Service\Mosaic.MOL.API.Service.csproj", "{EF57C66D-1F38-4BDC-818E-4970195C811E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6801DB00-7CBA-4378-BF4A-316EF3423883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6801DB00-7CBA-4378-BF4A-316EF3423883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6801DB00-7CBA-4378-BF4A-316EF3423883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6801DB00-7CBA-4378-BF4A-316EF3423883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DD156A-14CE-4879-B111-51BEE3C29124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DD156A-14CE-4879-B111-51BEE3C29124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DD156A-14CE-4879-B111-51BEE3C29124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DD156A-14CE-4879-B111-51BEE3C29124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E198EC9-A5D1-43EF-8206-F028DE365607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E198EC9-A5D1-43EF-8206-F028DE365607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E198EC9-A5D1-43EF-8206-F028DE365607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E198EC9-A5D1-43EF-8206-F028DE365607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439C92CB-96AF-46F6-944F-4E1E1106808B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439C92CB-96AF-46F6-944F-4E1E1106808B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439C92CB-96AF-46F6-944F-4E1E1106808B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439C92CB-96AF-46F6-944F-4E1E1106808B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF57C66D-1F38-4BDC-818E-4970195C811E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF57C66D-1F38-4BDC-818E-4970195C811E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF57C66D-1F38-4BDC-818E-4970195C811E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF57C66D-1F38-4BDC-818E-4970195C811E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5E9FDE-92A1-4054-921C-F989F956E103}
+	EndGlobalSection
+EndGlobal
